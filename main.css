@@ -1,46 +1,13 @@
+[data-h1] {
+  /* styles */
+}
+
 body {
-  margin: 0;
+  /* background-color: #f11; */
 }
 
-section {
-  padding: 20px;
-  display: grid;
-  height: 100vh;
-  gap: 1px;
-  /* grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(3, 100px); */
-  /* justify-content: center;
-  align-content: center; */
-  /* justify-content: space-evenly;
-  align-content: space-around; */
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  /* justify-items: center;
-  align-items: center; */
-  /* justify-items: end;
-  align-items: end; */
+.my-new-class {
+  color: #f11;
+  font-size: 40px;
+  text-decoration: underline;
 }
-
-div {
-  background-color: #123;
-  width: 100px;
-  height: 100px;
-}
-
-div:first-child, 
-div:nth-child(2) {
-  align-self: center;
-  justify-self: center;
-}
-
-div:nth-child(3) {
-  align-self: center;
-  justify-self: end;
-}
-
-div:nth-child(5) {
-  background-color: #0f0;
-  justify-self: center;
-  align-self: center;
-}
-
